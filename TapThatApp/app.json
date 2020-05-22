@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Tap This",
+    "slug": "tap-this",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon_fun.png",
+    "splash": {
+      "image": "./assets/splash_cow.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.geoffreygeorgegaswint.tapthis",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.geoffreygeorgegaswint.tapthis",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_fun.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": ["WRITE_EXTERNAL_STORAGE"]
+    }
+  }
+}
